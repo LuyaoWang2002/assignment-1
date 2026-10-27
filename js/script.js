@@ -76,4 +76,6 @@ function showScore() {
   nextButton.style.display = "none";
 }
 
+nextButton.addEventListener("click", nextQuestion);
+
 loadQuestion();
