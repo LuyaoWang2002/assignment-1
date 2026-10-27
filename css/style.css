@@ -4,14 +4,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #0ff00f;
     font-family: Arial, sans-serif;
 }
 
 .quiz-container {
-    width: 300px;
-    padding: 25px;
-    background-color: white;
+    width: 500px;
+    padding: 50px;
+    background-color: blueviolet;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 4px 12px #dddddd;
@@ -25,11 +25,11 @@ body {
 .option {
     display: block;
     width: 100%;
-    margin-bottom: 10px;
-    padding: 12px;
+    margin-bottom: 15px;
+    padding: 20px;
     border: none;
     border-radius: 15px;
-    background-color: #007bff;
+    background-color: #ff7bff;
     color: white;
     font-size: 16px;
     cursor: pointer;
